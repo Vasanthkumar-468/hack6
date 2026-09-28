@@ -11,7 +11,7 @@
 // You only NEED GEMINI_API_KEY to be set; the rest are optional extras.
 // In Vercel: Settings -> Environment Variables -> add each key -> Redeploy
 
-const MODEL = process.env.GEMINI_MODEL || "gemini-3.8-flash"; // gemini-2.5-flash and older are deprecated for new callers as of late 2026
+const MODEL = process.env.GEMINI_MODEL || "gemini-3.5-flash-lite"; // gemini-2.5-flash and older are deprecated for new callers as of late 2026
 
 function getApiKeys() {
   const keys = [];
